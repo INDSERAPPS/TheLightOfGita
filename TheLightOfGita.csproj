@@ -234,6 +234,7 @@
     <Content Include="Content\TheLightOfGita.pdf" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
+    <None Include="Properties\PublishProfiles\TheLightOfGita - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -279,6 +280,7 @@
     <Content Include="Views\Home\GitaChapterXVII.cshtml" />
     <Content Include="Views\Home\GitaChapterXVIII.cshtml" />
     <Content Include="Views\Home\Dedication.cshtml" />
+    <Content Include="Views\Home\Ebook.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -6,6 +6,7 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -23,6 +24,7 @@
                     @*<li>@Html.ActionLink("Gita", "Index", "Home")</li>*@
                     <li>@Html.ActionLink("Preface", "Preface", "Home")</li>
                     <li>@Html.ActionLink("Dedication", "Dedication", "Home")</li>
+                    <li>@Html.ActionLink("e-Book", "Ebook", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                 </ul>
@@ -35,7 +37,7 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr class="dividerL"/>
+        <hr class="dividerL" />
         <footer>
             <p>&copy; @DateTime.Now.Year - The Light of Srimad Bhagavad Gita</p>
         </footer>

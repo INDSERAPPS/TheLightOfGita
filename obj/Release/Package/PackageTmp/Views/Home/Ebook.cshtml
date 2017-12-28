@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "The Light of Gita - Preface";
+}
+<style type="text/css">
+    .slokaWrapper {
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        position: relative;
+        text-align: justify;
+        text-justify: inter-word;
+        /*color: #020f19;*/
+        font-size: 14px;
+    }
+
+    .slokaDiv {
+        text-align: center;
+        color: #12629c;
+        background-color: #f2f2f2;
+        padding: 10px;
+        font-weight: 400;
+        border-radius: 10px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slokadividerL {
+        /*height: 1px;*/
+        width: 50%;
+        /*background-image: linear-gradient(to left, rgba(101,138,212,.5) 0%, rgba(121,220,98,.5) 100%);
+        background-color: rgba(5,165,209,.75);*/
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slokadividerR {
+        /*height: 1px;*/
+        width: 50%;
+        /*background-image: linear-gradient(to right, rgba(101,138,212,.5) 0%, rgba(121,220,98,.5) 100%);
+        background-color: rgba(5,165,209,.75);*/
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slokadescription {
+        margin: 10px;
+        margin-left: 15px;
+        text-align: left;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-12" style="text-align:center">
+        <h3 style="color:#0094ff;">e-Book</h3>
+        <div class="row" style="text-align:center">
+            <p class="slokadescription" style="text-align:center">
+                @*<li style="text-decoration:none;">*@
+                    <a id="download" href="~/Content/TheLightOfGita.pdf" target="_blank" >
+                        Download</a>
+                @*</li>*@
+            </p>
+        </div>
+    </div>
+    <div class="row" style="text-align:center">
+        <p class="slokadescription" style="text-align:center">
+            <embed src="~/Content/TheLightOfGita.pdf" width="800" height="1000" type='application/pdf'>
+        </p>
+    </div>
+</div>
+</div>

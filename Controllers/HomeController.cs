@@ -148,5 +148,11 @@ namespace TheLightOfGita.Controllers
 
             return View();
         }
+        public ActionResult Ebook()
+        {
+            ViewBag.Message = "Gita Chapter XVIII";
+
+            return View();
+        }
     }
 }
